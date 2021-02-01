@@ -1,0 +1,84 @@
+.main {
+    background-image: url(/static/img/main.jpg);
+    height: 85vh;
+    background-size: cover;
+  }
+  
+  .mainContent {
+    width: 100%;
+    height: 100%;
+    background-color: #00000085;
+  }
+  
+  .topNav {
+    padding: 20px 50px;
+    overflow: auto;
+  }
+  
+  .netflixlogo {
+    fill: #e50914;
+    width: 150px;
+    float: left;
+  }
+  
+  .button {
+    color: white;
+    background-color: #e50914;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+  }
+  
+  .topNavButton {
+    float: right;
+  }
+  
+  .welcomeBox {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    padding-top: 10vh;
+  }
+  
+  .welcomeBox h1 {
+    font-size: 50px;
+    margin: 20px;
+  }
+  
+  .welcomeBox p {
+    font-size: 25px;
+    margin: 0px;
+  }
+  
+  .getStartedBox {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .getStartedBox p{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+  }
+  
+  .getStartedButton {
+    text-transform: uppercase;
+    font-size: 24px;
+    border-radius: 2px;
+    padding: 15px 20px;
+  }
+  
+  .getStartedInput {
+    height: 52px;
+    width: 500px;
+    position: relative;
+    left: 4px;
+    bottom: 3px;
+  }
+  
