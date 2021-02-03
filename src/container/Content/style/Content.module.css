@@ -29,13 +29,13 @@
     width: 100%;
     height: auto;
     position: relative;
-    bottom: 50px;
+    bottom: 40px;
   }
   
   .tvVideo {
     position: absolute;
-    top: 35px;
-    left: 72px;
+    top: 37px;
+    left: 69px;
     width: 72%;
   }
   .section2Image {

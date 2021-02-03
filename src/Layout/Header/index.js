@@ -23,7 +23,7 @@ const Header = () => {
                     <p>Ready to watch? Enter your email to create or restart your membership.
         </p>
                     <div>
-                        <input className={topStyle.getStartedInput} />
+                        <input className={topStyle.getStartedInput} placeholder="enter email address"/>
                         <button className={`${topStyle.button} ${topStyle.getStartedButton}`}>Get started</button>
                     </div>
                 </div>

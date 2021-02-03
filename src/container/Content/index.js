@@ -1,4 +1,5 @@
 import React from 'react';
+import Faq from '../../components/Faq';
 import conStyle from "./style/Content.module.css";
 
 
@@ -17,7 +18,7 @@ const Content = () => {
 
                     <img src="/static/img/tv.png" className={conStyle.tvImage} />
                     <video className={conStyle.tvVideo}>
-                        <source src="/static/img/video-tv-0819.m4v" />
+                        <source src="/static/img/video-tv-0819.m4v"/>
                     </video>
                 </div>
             </div>
@@ -38,6 +39,7 @@ const Content = () => {
                     <p>Save your favorites easily and always have something to watch.</p>
                 </div>
             </div>
+            <Faq />
         </div>
     )
 }

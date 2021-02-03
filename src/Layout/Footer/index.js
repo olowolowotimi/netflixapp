@@ -3,7 +3,9 @@ import footStyle from "./style/Footer.module.css";
 
 const Footer = () => {
     return(
-        <div>timi</div>
+        <div className={footStyle.backgroundcolor}>
+            <h2>timi</h2>
+        </div>
     )
 }
 
