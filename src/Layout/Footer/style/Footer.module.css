@@ -1,5 +1,17 @@
 .backgroundcolor{
     background-color: black;
-    height: 500px;
+    height: 300px;
     width: 100%;
+}
+.content{
+    color:white;
+    
+    
+    
+}
+.section{
+    display:flex;
+    justify-content: space-around;
+    font-size: 15px;
+    font-weight: lighter;
 }

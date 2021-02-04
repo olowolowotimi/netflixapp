@@ -1,5 +1,6 @@
 import React from 'react';
 import topStyle from "./style/Header.module.css";
+import {IoIosArrowForward} from "react-icons/io";
 
 const Header = () => {
     return (
@@ -23,8 +24,9 @@ const Header = () => {
                     <p>Ready to watch? Enter your email to create or restart your membership.
         </p>
                     <div>
-                        <input className={topStyle.getStartedInput} placeholder="enter email address"/>
+                        <input className={topStyle.getStartedInput} placeholder="Email address"/>
                         <button className={`${topStyle.button} ${topStyle.getStartedButton}`}>Get started</button>
+                        <IoIosArrowForward/>
                     </div>
                 </div>
             </div>

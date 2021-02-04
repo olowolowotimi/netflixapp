@@ -6,6 +6,7 @@ import conStyle from "./style/Content.module.css";
 
 const Content = () => {
     return (
+        <div>
         <div className={conStyle.sub}>
             <div className={conStyle.section}>
                 <div className={conStyle.col}>
@@ -39,7 +40,9 @@ const Content = () => {
                     <p>Save your favorites easily and always have something to watch.</p>
                 </div>
             </div>
-            <Faq />
+            
+        </div>
+        <Faq />
         </div>
     )
 }

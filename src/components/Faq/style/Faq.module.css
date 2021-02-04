@@ -1,6 +1,9 @@
+.sub {
+  background-color: #000;
+}
 .faQSection {
     width: 70%;
-    padding: 50px 100px;
+    padding: 80px 100px;
     color:white;
   }
   
@@ -26,6 +29,7 @@
   
   .faqItemIcon {
     float: right;
+
   }
   .button {
     color: white;
