@@ -1,17 +1,19 @@
-.backgroundcolor{
-    background-color: black;
-    height: 300px;
-    width: 100%;
+.backgroundcolor {
+  background-color: black;
+  height: 300px;
+  width: 100%;
 }
-.content{
-    color:white;
-    
-    
-    
+.content {
+  color: white;
 }
-.section{
-    display:flex;
-    justify-content: space-around;
-    font-size: 15px;
-    font-weight: lighter;
+.section {
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+  font-weight: lighter;
+}
+@media only screen and (max-width: 768px) {
+  .section p {
+    font-size: 16px;
+  }
 }

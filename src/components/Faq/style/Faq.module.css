@@ -2,69 +2,87 @@
   background-color: #000;
 }
 .faQSection {
-    width: 70%;
-    padding: 80px 100px;
-    color:white;
-  }
-  
-  .faQheader {
-    font-family: "Roboto", sans-serif;
-    color: white;
-    font-size: 45px;
-    text-align: center;
-    padding-top: 0px;
-  }
-  
-  .faqItem {
-    width: 100%;
-    overflow: auto;
-    background-color: #303030;
-    padding: 0px 30px;
-    margin-bottom: 15px;
-  }
-  
-  .faqItemTitle {
-    float: left;
-  }
-  
-  .faqItemIcon {
-    float: right;
+  width: 70%;
+  padding: 80px 100px;
+  color: white;
+}
 
+.faQheader {
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  padding-top: 0px;
+}
+
+.faqItem {
+  width: 100%;
+  overflow: auto;
+  background-color: #303030;
+  padding: 0px 30px;
+  margin-bottom: 15px;
+}
+
+.faqItemTitle {
+  float: left;
+}
+
+.faqItemIcon {
+  float: right;
+}
+.button {
+  color: white;
+  background-color: #e50914;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.getStartedBox {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.getStartedCaption {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.getStartedButton {
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 2px;
+  padding: 15px 20px;
+}
+
+.getStartedInput {
+  height: 52px;
+  width: 500px;
+  position: relative;
+  left: 4px;
+  bottom: 3px;
+}
+
+@media only screen and (max-width: 768px) {
+  .faQSection {
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
   }
-  .button {
-    color: white;
-    background-color: #e50914;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-  }
-  
   .getStartedBox {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-    margin-top: 40px;
+    width: 120%;
   }
-  
-  .getStartedCaption {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
+  .getStartedBox p {
+    font-size: 18px;
   }
-  
-  .getStartedButton {
-    text-transform: uppercase;
-    font-size: 24px;
-    border-radius: 2px;
-    padding: 15px 20px;
-  }
-  
   .getStartedInput {
-    height: 52px;
-    width: 500px;
-    position: relative;
-    left: 4px;
-    bottom: 3px;
+    width: 100%;
   }
+}

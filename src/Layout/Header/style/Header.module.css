@@ -80,18 +80,25 @@
 }
 .section svg {
   position: absolute;
-  margin-left: -29px;
-  height: 18px;
-  margin-top: 27px;
   color: #fff;
+  margin-left: -50px;
+  margin-top: 10px;
+  padding: 0 25px;
 }
-@media only screen and (max-width: 576px) {
+
+@media only screen and (max-width: 768px) {
   .getStartedButton {
     margin: 15px auto;
     height: 40px;
     width: 160px;
     font-size: 16px;
     text-align: center;
+  }
+  .section svg {
+    position: absolute;
+    height: 18px;
+    margin-top: 28px;
+    color: #fff;
   }
 }
 

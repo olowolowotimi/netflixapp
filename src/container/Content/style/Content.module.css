@@ -1,86 +1,107 @@
 .sub {
-    background-color: #000;
-  }
-  
-  .section {
-    color: white;
-    padding: 40px 180px;
-    display: flex;
-    font-family: "Roboto", sans-serif;
-    border-top: 8px solid #222;
-  }
-  
+  background-color: #000;
+}
+/* sub section ends here */
+
+.section {
+  color: white;
+  padding: 40px 180px;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  border-top: 8px solid #222;
+}
+.col {
+  min-height: 300px;
+  flex: 1;
+  position: relative;
+}
+.section h1 {
+  font-size: 50px;
+  margin-top: 100px;
+}
+
+.section p {
+  font-size: 25px;
+}
+
+.tvImage {
+  width: 100%;
+  height: auto;
+  position: relative;
+  bottom: 40px;
+}
+
+.tvVideo {
+  position: absolute;
+  top: 37px;
+  left: 69px;
+  width: 72%;
+}
+.section2Image {
+  width: 100%;
+  height: auto;
+  position: relative;
+  right: 100px;
+}
+
+.downloadPopup {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 2px solid #222;
+  padding: 10px 15px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 30px;
+  left: 0px;
+  background-color: #000;
+}
+
+.downloadBanner {
+  width: 50px;
+  height: auto;
+}
+
+.downloadTextBox {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.downloadTextBox h5 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.downloadTextBox p {
+  margin: 0px;
+  font-size: 13px;
+  margin-top: 5px;
+  color: #0071eb;
+}
+.downloadIcon {
+  width: 50px;
+}
+
+@media only screen and (max-width: 768px) {
   .col {
-    min-height: 300px;
-    flex: 1;
-    position: relative;
-  }
-  
-  .section h1 {
-    font-size: 50px;
-    margin-top: 100px;
-  }
-  
-  .section p {
-    font-size: 25px;
-  }
-  
-  .tvImage {
-    width: 100%;
-    height: auto;
-    position: relative;
-    bottom: 40px;
-  }
-  
-  .tvVideo {
-    position: absolute;
-    top: 37px;
-    left: 69px;
-    width: 72%;
-  }
-  .section2Image {
-    width: 100%;
-    height: auto;
-    position: relative;
-    right: 100px;
-  }
-  
-  .downloadPopup {
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 300px;
-    border: 2px solid #222;
-    padding: 10px 15px;
-    border-radius: 10px;
-    position: absolute;
-    bottom: 30px;
-    left: 0px;
-    background-color: #000;
+    text-align: center;
+    flex-flow: column;
+    width: 100%;
   }
-  
-  .downloadBanner {
-    width: 50px;
-    height: auto;
+  .section h1 {
+    font-size: 28px;
+    width: 400px;
   }
-  
-  .downloadTextBox {
-    flex: 1;
-    margin-left: 10px;
-  }
-  
-  .downloadTextBox h5 {
-    margin: 0;
+  .section p {
     font-size: 18px;
-    font-weight: 400;
+    padding: 5px 18px;
+    width: 360px;
   }
-  
-  .downloadTextBox p {
-    margin: 0px;
-    font-size: 13px;
-    margin-top: 5px;
-    color: #0071eb;
+  .downloadPopup {
+    display: none;
   }
-  
-  .downloadIcon {
-    width: 50px;
-  }
+}
