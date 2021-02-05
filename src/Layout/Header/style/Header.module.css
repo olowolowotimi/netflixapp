@@ -1,115 +1,130 @@
 .main {
-    background-image: url(/static/img/main.jpg);
-    height: 85vh;
-    background-size: cover;
-  }
-  
-  .mainContent {
-    width: 100%;
-    height: 100%;
-    background-color: #00000085;
-  }
-  
-  .topNav {
-    padding: 20px 50px;
-    overflow: auto;
-  }
-  
-  .netflixlogo {
-    fill: #e50914;
-    width: 150px;
-    float: left;
-  }
-  
-  .button {
-    color: white;
-    background-color: #e50914;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-  }
-  
-  .topNavButton {
-    float: right;
-  }
-  
-  .welcomeBox {
-    color: white;
-    font-family: "Roboto", sans-serif;
-    text-align: center;
-    max-width: 600px;
-    margin: auto;
-    padding-top: 50px;
-  }
-  
-  .welcomeBox h1 {
-    font-size: 50px;
-    margin: 20px;
-  }
-  
-  .welcomeBox p {
-    font-size: 25px;
-    margin: 0px;
-  }
-  
-  .getStartedBox {
-    max-width: 800px;
-    margin: auto;
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  
-  .getStartedBox p{
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-  }
-  
-  .getStartedButton {
-    text-transform: uppercase;
-    font-size: 24px;
-    border-radius: 2px;
-    padding: 15px 20px;
-  }
-  .section .svg{
-    border:1px solid rgb(0, 255, 21);  
+  background-image: url(/static/img/main.jpg);
+  height: 85vh;
+  background-size: cover;
 }
-  
-  .getStartedInput {
-    height: 52px;
-    width: 500px;
-    position: relative;
-    left: 4px;
-    bottom: 3px;
-    padding: 0 10px;
+
+.mainContent {
+  width: 100%;
+  height: 100%;
+  background-color: #00000085;
+}
+
+.topNav {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 768px) {
+  .topNav {
+    padding: 15px 15px;
+  }
+  .topNav button {
+    margin-right: 0px;
+  }
+}
+/* top nav section ends here */
+
+.netflixlogo {
+  fill: #e50914;
+  width: 150px;
+}
+.button {
+  color: white;
+  background-color: #e50914;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/* search component button ends here */
+
+.welcomeBox {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.welcomeBox h1 {
+  font-size: 50px;
+  margin: 20px;
+}
+
+.welcomeBox p {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.getStartedBox {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.getStartedBox p {
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.getStartedButton {
+  text-transform: uppercase;
+  font-size: 24px;
+  border-radius: 2px;
+  padding: 15px 20px;
+}
+.section svg {
+  position: absolute;
+  margin-left: -29px;
+  height: 18px;
+  margin-top: 27px;
+  color: #fff;
+}
+@media only screen and (max-width: 576px) {
+  .getStartedButton {
+    margin: 15px auto;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.getStartedInput {
+  height: 52px;
+  width: 500px;
+  position: relative;
+  left: 4px;
+  bottom: 3px;
+  padding: 0 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .welcomeBox {
+    padding: 10px 10px;
   }
 
-  @media only screen and (max-width:768px) {
-    .welcomeBox {
-      padding: 10px 10px;
-      }
-      
-    .welcomeBox h1 {
-      font-size: 28px;   
+  .welcomeBox h1 {
+    font-size: 28px;
   }
-  .welcomeBox p{
+  .welcomeBox p {
     font-size: 18px;
   }
-  .getStartedBox p{
+  .getStartedBox p {
     font-size: 18px;
     padding: 0 55px;
-    margin-top:-30px;
+    margin-top: -30px;
   }
-  .section{
+  .section {
     padding: 10px 20px;
   }
-  .getStartedInput{
-    width:90%;
-    left:0;
-
+  .getStartedInput {
+    width: 90%;
+    left: 0;
   }
-  }
-  
+}
