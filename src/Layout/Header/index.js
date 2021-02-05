@@ -23,10 +23,10 @@ const Header = () => {
                 <div className={topStyle.getStartedBox}>
                     <p>Ready to watch? Enter your email to create or restart your membership.
         </p>
-                    <div>
+                    <div className={topStyle.section}>
                         <input className={topStyle.getStartedInput} placeholder="Email address"/>
                         <button className={`${topStyle.button} ${topStyle.getStartedButton}`}>Get started</button>
-                        <IoIosArrowForward/>
+                        <IoIosArrowForward size={30}/>
                     </div>
                 </div>
             </div>
