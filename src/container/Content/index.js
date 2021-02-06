@@ -4,7 +4,7 @@ import conStyle from "./style/Content.module.css";
 
 const Content = () => {
   return (
-    <div>
+    <div className={conStyle.base}>
       <div className={conStyle.sub}>
         <div className={conStyle.section}>
           <div className={conStyle.col}>
@@ -15,10 +15,10 @@ const Content = () => {
             </p>
           </div>
           <div className={conStyle.col}>
-            <img src="/static/img/tv.png" className={conStyle.tvImage} />
             <video className={conStyle.tvVideo}>
               <source src="/static/img/video-tv-0819.m4v" />
             </video>
+            <img src="/static/img/tv.png" className={conStyle.tvImage} />
           </div>
         </div>
         <div className={conStyle.section}>

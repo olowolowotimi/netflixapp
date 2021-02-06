@@ -12,7 +12,6 @@
 }
 .col {
   min-height: 300px;
-
 }
 .section h1 {
   font-size: 50px;
@@ -22,19 +21,34 @@
 .section p {
   font-size: 25px;
 }
-
+/* video section starts here */
+.base video {
+  position: absolute;
+  /* position absolute sets it to the topmost 
+    part of the screen, then margin top and left
+    to position it inisde the image.
+  */
+  width: 265px;
+  margin-left: 58px;
+  margin-top: 25px;
+}
 .tvImage {
   width: 100%;
   bottom: 40px;
-  
+  /* giving it a greater z-index value
+    so the image's remote controller is on the video file 
+    itself.
+  */
+  z-index: 20;
+  /* seting it's position to relative enables it 
+    to stay in ths same container (blah blah blah
+    not reall sure tho.) 
+  */
+  position: relative;
 }
+/* video section ends here */
 
-.tvVideo {
-  width: 300px;
-  left: 850px;
-  margin-top: -250px !important;
-  
-}
+/* download section starts here */
 .section2Image {
   width: 100%;
   height: auto;
@@ -42,15 +56,15 @@
 }
 
 .downloadPopup {
+  /* removed the absolute positioning from this 
+    section, so it doesn't tamper with my styling.
+  */
   display: flex;
   align-items: center;
   width: 300px;
   border: 2px solid #222;
   padding: 10px 15px;
   border-radius: 10px;
-  position: absolute;
-  bottom: 100px;
-  left: 0px;
   background-color: #000;
 }
 
@@ -79,26 +93,29 @@
 .downloadIcon {
   width: 50px;
 }
+/* download section ends here */
 
 @media only screen and (max-width: 768px) {
-  .col {
-    position:absolute;
-    margin: 0 auto;
-    
-    
+  .section {
+    flex-wrap: wrap;
+    padding: 0 3%;
   }
   .section h1 {
     font-size: 28px;
-    width: 200px;
-    
-    
+    width: 100%;
+    text-align: center;
   }
   .section p {
     font-size: 18px;
-    width: 250px;
-  
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+  .base video {
+    width: 280px;
   }
   .downloadPopup {
-    display: none;
+    margin: 0 auto;
+    /* margin zero auto to place it at the center */
   }
 }
