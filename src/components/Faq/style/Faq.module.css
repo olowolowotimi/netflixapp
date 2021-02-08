@@ -69,25 +69,34 @@
 }
 
 @media only screen and (max-width: 768px) {
-  .faQheader {
-    font-size: 28px;
-    text-align: center;
-    width: 350px;
-    margin: 0 auto;
-    padding: 4% 0;
-  }
+  
   .faQSection {
-    padding: 0 30px;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-flow: column;
   }
-  .faQSection .faqItem {
-    margin: 10px auto;
+  .faQSection h2 {
+    font-size: 28px;
+    text-align: center;
+    width: 350px;
+  }
+  .details{
+    margin: 0 auto;
+   
+  }
+ 
+  .faqItem{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    
+     
+  }
+  .faqItem p{
+    font-size:15px;
   }
   .getStartedBox {
-    width: 120%;
+    width: 100%;
   }
   .getStartedBox p {
     font-size: 18px;

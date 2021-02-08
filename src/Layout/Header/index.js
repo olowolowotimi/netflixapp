@@ -40,9 +40,9 @@ const Header = () => {
             <button
               className={`${topStyle.button} ${topStyle.getStartedButton}`}
             >
-              Get started
+              Get started <IoIosArrowForward  />
             </button>
-            <IoIosArrowForward size={30} />
+           
           </div>
         </div>
       </div>
