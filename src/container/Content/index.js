@@ -14,9 +14,9 @@ const Content = () => {
               Blu-ray players, and more.
             </p>
           </div>
-          <div className={conStyle.col}>
-            <video className={conStyle.tvVideo}>
-              <source src="/static/img/video-tv-0819.m4v" />
+          <div className={conStyle.colOne}>
+            <video className={conStyle.tvVideo} autoplay playsinline muted loop>
+              <source src="/static/img/video-tv-0819.m4v"   />
             </video>
             <img src="/static/img/tv.png" className={conStyle.tvImage} />
           </div>
