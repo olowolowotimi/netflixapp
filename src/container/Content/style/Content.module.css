@@ -94,7 +94,9 @@
     margin: 0;
   }
   .base video {
-    width: 280px;
+ left: -5px;
+ bottom: -350px;
+    width: 220px;
   }
   .downloadPopup {
     margin: 0 auto;
