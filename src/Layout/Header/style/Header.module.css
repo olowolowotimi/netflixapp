@@ -23,9 +23,9 @@
 .button {
   color: white;
   background-color: #e50914;
-  padding: 10px 15px;
+  padding: 10px 12px;
   border: none;
-  border-radius: 5px;
+  border-radius: 3px;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
